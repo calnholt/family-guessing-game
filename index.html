@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Family Guessing Game!</title>
+  <script src="data.js"></script>
+  <script src="game.js"></script>
+  <script src="menu.js"></script>
+  <link rel="stylesheet" href="common.css"></link>
+</head>
+
+<body>
+  <div id="menu">
+    <h1>Family Guessing Game!</h1>
+    <!-- <h2>Select your difficulty:</h2> -->
+    <h2 id="high-score"></h2>
+    <div class="buttons">
+      <button onclick="startGame('SCORE', NAMES)">Start</button>
+    </div>
+  </div>
+  <script>
+    loadMenu();
+  </script>
+  <div id="game"></div>
+</body>
+
+</html>
