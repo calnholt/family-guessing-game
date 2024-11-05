@@ -31,3 +31,11 @@ button {
   width: 100%;
   flex-wrap: wrap;
 }
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}

@@ -55,13 +55,13 @@ function startGame(difficulty, NAMES) {
     button.onclick = (el) => {
       const isCorrect = el.currentTarget.textContent === _name;
       isCorrect ? _correct++ : _incorrect++;
-      button.style.backgroundColor = isCorrect ? 'green' : 'red';
+      button.classList.add(isCorrect ? 'green' : 'red');
       // find correct button
       if (!isCorrect) {
         const nodes = document.querySelectorAll('.name-button');
         for (let node of nodes) {
           if (node.textContent === _name) {
-            node.style.backgroundColor = 'green';
+            node.classList.add('green');
             break;
           }
         }
