@@ -67,14 +67,14 @@ const NAMES = {
     path: '',
     isMale: true,
   },
-  // 'John Holt': {
-  //   path: '',
-  //   isMale: true,
-  // },
-  // 'Lyndsay Holt': {
-  //   path: '',
-  //   isMale: false,
-  // },
+  'John Holt': {
+    path: '',
+    isMale: true,
+  },
+  'Lyndsay Holt': {
+    path: '',
+    isMale: false,
+  },
   // 'Pennelope Holt': {
   //   path: '',
   //   isMale: false,
@@ -151,14 +151,14 @@ const NAMES = {
     path: '',
     isMale: true,
   },
-  // 'Ethan Grosso': {
-  //   path: '',
-  //   isMale: true,
-  // },
-  // 'Katie Grosso': {
-  //   path: '',
-  //   isMale: false,
-  // },
+  'Ethan Grosso': {
+    path: '',
+    isMale: true,
+  },
+  'Katie Grosso': {
+    path: '',
+    isMale: false,
+  },
   'Eric Twardzik': {
     path: '',
     isMale: true,
@@ -188,6 +188,10 @@ const NAMES = {
     isMale: false,
   },
   'Sean Murphy': {
+    path: '',
+    isMale: true,
+  },
+  'Steve Allen': {
     path: '',
     isMale: true,
   },

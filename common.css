@@ -22,6 +22,7 @@ button {
   font-size: 40px;
   margin: 40px 20px;
   padding: 10px;
+  color: black;
 }
 
 .buttons {
@@ -29,22 +30,4 @@ button {
   justify-content: space-evenly;
   width: 100%;
   flex-wrap: wrap;
-}
-
-@keyframes flash-green {
-  0% { background-color: transparent; }
-  50% { background-color: green; }
-  100% { background-color: transparent; }
-}
-@keyframes flash-red {
-  0% { background-color: transparent; }
-  50% { background-color: red; }
-  100% { background-color: transparent; }
-}
-
-.flash-element.flash-green {
-  animation: flash-green 1s ease-in-out;
-}
-.flash-element.flash-red {
-  animation: flash-red 1s ease-in-out;
 }
