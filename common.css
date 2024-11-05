@@ -34,8 +34,12 @@ button {
 
 .green {
   background-color: green;
+  margin: 40px 20px;
+  padding: 10px;
 }
 
 .red {
   background-color: red;
+  margin: 40px 20px;
+  padding: 10px;
 }
