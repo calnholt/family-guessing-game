@@ -99,7 +99,7 @@ const NAMES = {
     path: '',
     isMale: true,
   },
-  'Megan Crimi': {
+  'Megan Holt': {
     path: '',
     isMale: false,
   },
